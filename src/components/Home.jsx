@@ -1,11 +1,12 @@
 import React from 'react'
 import { Button } from 'react-scroll'
+import img from '../assets/images/pic8.jpg'
 
 const Home = () => {
   return (
-    <div  className='bg-slate-100  p-4 max-w-screen-2xl rounded h-auto' >
+    <div  className='bg-slate-100  p-4 max-w-screen-2xl rounded h-auto flex flex-row' >
 
-        <div className='mx-32 my-10 font-bold text-6xl leading-none'>
+        <div className='mx-32 my-10 font-bold text-6xl leading-none '>
         <div className='bg-white w-60 px-4'>
         LET'S   
     </div>
@@ -31,9 +32,17 @@ const Home = () => {
     </div>
      
         </div>
+    {/* images div */}
+        <div className='pt-7'>
+          <img className=' w-72 ml-24   ' src={img}></img>
+        </div>
    
     </div>
   )
 }
 
 export default Home
+
+
+
+
