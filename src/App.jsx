@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Brands from './components/Brands'
 import NewArrivals from './components/NewArrivals'
+import Sales from './components/Sales'
 
 const App = () => {
   return (
@@ -17,6 +18,9 @@ const App = () => {
     </div>
     <div>
       <NewArrivals/>
+    </div>
+    <div>
+      <Sales/>
     </div>
     </div>
 
