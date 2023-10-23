@@ -6,7 +6,7 @@ import Button from '../layouts/Button'
 const Navbar = () => {
   return (
     <div>
-      <div className='flex flex-row justify-between p-4 px-32 bg-white h-12'>
+      <div className='flex flex-row justify-between p-5 px-32 bg-white h-12'>
         <div className='font-bold -tracking-2 '>
         <Link to="/" className='flex flex-row gap-1' >
           <SiShopify size={20}/> 
