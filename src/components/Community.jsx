@@ -12,6 +12,8 @@ const Community = () => {
         <button className='bg-white text-black w-56 text-sm h-8 rounded-md '>Enter your Email
 
         <button className='bg-black text-white text-sm rounded-md left-5 ml-8 w-16'>SEND</button>
+
+        
         
         
         </button>
