@@ -16,7 +16,7 @@ const Footer = () => {
 
         <div className='flex gap-3 pt-4 text-black'>
             <BiLogoFacebook className=' bg-yellow-500 w-7 h-6 rounded-md '/>
-            < BsInstagram  className=' bg-yellow-500 w-7 h-6 rounded-md'/>
+            < BsInstagram size={10}  className=' bg-yellow-500 w-7 h-6 rounded-md'/>
             < BsTwitter  className=' bg-yellow-500 w-7 h-6 rounded-md'/>
             < BiLogoLinkedin  className=' bg-yellow-500 w-7 h-6 rounded-md'/>
         </div>

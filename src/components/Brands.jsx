@@ -3,7 +3,7 @@ const Brands = () => {
   return (
     <div>
       <div className='bg-amber-300 h-16'>
-       <div className='flex flex-row w-16 p-2 gap-32 pt- ml-28'>
+       <div className='flex flex-row w-16 p-2 gap-32  items-center ml-28'>
 
       <img className='pl-5 ' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/2560px-H%26M-Logo.svg.png"></img>
 
