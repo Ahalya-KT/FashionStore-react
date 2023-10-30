@@ -24,10 +24,7 @@ const Navbar = () => {
 
              <Button title="SIGN UP"/>
 
-             </div>
-
-            
-           
+             </div>  
         </nav>
       
 
